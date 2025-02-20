@@ -9,4 +9,9 @@ class Teacher {
     age = tmpAge;
     isFemale = tmpIsFemale;
   }
+
+  // 4.a: Metode til at ændre lærerens navn
+  void changeName(String newName) {
+    name = newName;
+  }
 }
